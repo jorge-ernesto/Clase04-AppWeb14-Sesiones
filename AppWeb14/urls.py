@@ -20,8 +20,7 @@ from app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('set/',views.setsession),
-    path('get/',views.getsession),
-    path('del/',views.delsession),
-
+    path('set/', views.setsession),
+    path('get/', views.getsession),
+    path('del/', views.delsession),
 ]
