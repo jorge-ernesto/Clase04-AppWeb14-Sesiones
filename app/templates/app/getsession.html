@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leer Sessionm</title>
+</head>
+
+<body>
+    <h1>Recuperando datos de Session</h1>
+    <h2>Hola,{{ nombre }} {{ apellido }}</h2>
+    <h2>Tengo: {{ edad }} años</h2>
+    <h2>Fecha: {{ fecha }}</h2>
+    <p>
+        Lista de Cursos
+    </p>
+    <br>
+    <lu>
+        {% for cur in cursos %}
+        <li>{{ cur }}</li>
+        {% endfor %}
+    </lu>
+</body>
+
+</html>
